@@ -5,8 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            background-color: #e3dace;
+            color: #142632;
+        }
+
+    </style>
 </head>
 <body>
-    
+    <header>
+        <h1>Class 1 Lab</h1>
+    </header>
+    <main>
+        <h2>Riddle Me This</h2>
+        <p>What is your name?</p>
+        <p>Where are you located today?</p>
+        <p>How are you feeling today?</p>
+        <p>If you could travel anywhere at this very moment, where would you go?</p>
+    </main>
+    <footer>&copy iAmAndrewCarroll 2023</footer>
+    <script>
+        let one=prompt ("What is your name?");
+        alert (`hello ${one}`)
+        console.log (`the user's name is ${one}`)
+        let two=prompt (`${one}, where are you located today?`)
+        alert (`${two}?!?! It's so nice there!`)
+        console.log (`user location ${two}`)
+        let three=prompt (`${one}, how are you feeling today?`)
+        alert (`${three}!?!? You must not have much to do today...`)
+        console.log (`user feels ${three} today`)
+        let four=prompt (`${one}, If you could travel anywhere at this very moment, where would you go?`)
+        alert (`Wow ${one}, you really want to go to ${four} while experiencing the effects of ${three} even though you are already so lucky to be in ${two}?!  You're a trip...`)
+        console.log (`user desires travel to ${four}`)
+    </script>
 </body>
 </html>
